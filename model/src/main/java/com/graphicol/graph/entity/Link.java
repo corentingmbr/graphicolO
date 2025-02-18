@@ -1,7 +1,6 @@
 package com.graphicol.graph.entity;
 
-import java.util.List;
+public record Link(int weight, String[] nodes) {
 
-public record Link(int weight, List<String> nodes) {
 
 }

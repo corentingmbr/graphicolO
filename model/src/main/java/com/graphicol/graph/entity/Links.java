@@ -2,5 +2,5 @@ package com.graphicol.graph.entity;
 
 import java.util.ArrayList;
 
-public class Entities<Entity> extends ArrayList<Entity> {
+public class Links extends ArrayList<Link> {
 }

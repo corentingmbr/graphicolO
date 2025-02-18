@@ -1,9 +1,9 @@
 package com.graphicol.graph;
 
 public class Model implements IModel {
-    private IGraph<INode<String>> graph = new Graph<>();
+    private final IGraph<String> graph = new StringGraph();
 
     public Model() {
-        graph.loadFromJson("AventuriersDuRailEurope.json");
+        this.graph.loadFromJson("AventuriersDuRailEurope.json");
     }
 }
